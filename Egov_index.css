@@ -128,9 +128,151 @@ span{
     font-size: 40px;
     font-weight: 300;
 }
+.approach-main{
+    background-color: white;
+    padding: 60px 0;
+    
+}
 .approach{
     background-color: white;
     height: 500px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: -120px;
+    z-index: 2;
+    position: relative;
+}
+.approach h2{
+    font-size: 35px;
+    font-weight: 200;
+}
+.approach h2 span{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0E165D;
+}
+.background-style{
+    padding: 50px;
+}
+.approach-tabs{
+    width: 80%;
+}
+.approach-tabs .nav-link{
+    border: 1px solid #1c2b5a;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: #1c2b5a;
+    text-align: center;
+    border: 1px solid #0E165D;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 90%
+}
+.approach-tabs .nav-item{
+    width: 90%;
+}
+.approach-tabs .nav-link.active{
+    color: white;
+    background-color: #1577BD;
+    border: 1px solid #1577BD;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 90%
+}
+.tabs-panel-1{
+    overflow: hidden;
+    position: relative;
+    width: 40%;
+}
+.tabs-panel-2{
+    overflow: hidden;
+    position: relative;
+    width: 40%;
+}
+.background-container-1{
+    background-color: #4bb5cb;
+    background-image: url("./assets/ICU-Equipment.G16.2k-1-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 425px;
+    border-radius: 20px;
+}
+.background-container-2{
+    background-color: #2396FF;
+    background-image: url("./assets/covid-vaccine-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 425px;
+    border-radius: 20px;
+}
+.content{
+    padding: 30px;
+}
+.content h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.content a{
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    text-decoration: none;
+    color: #0E165D;
+    margin-top: 2px;
+}
+.citizens{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 60%;
+    margin: auto;
+}
+.citizens-tabs-content h2{
+    font-size: 35px;
+    font-weight: 100;
+    color: #0E165D;
+}
+.citizens-tabs-content span{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0E165D;
+}
+.citizens-tabs-contents{
+    margin-top: 15px;
+}
+.citizens-tabs-contents p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #0E165D;
+}
+.citizen-members{
+    margin-top: 50px;
+}
+.thumb img{
+    width: 85%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.citizen-about{
+    margin-top: 25px;
+}
+.citizen-about a{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #0E165D;
+    border: .3px solid #0E165D;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
 }
 .digit{
     height: 500px;
